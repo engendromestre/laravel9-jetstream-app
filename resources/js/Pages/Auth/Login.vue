@@ -43,7 +43,7 @@ const submit = () => {
             {{ status }}
         </div>
 
-        <form @submit.prevent="submit">
+        <form @submit.prevent="submit" novalidate>
             <div>
                 <JetLabel for="email" value="Email" />
                 <JetInput
